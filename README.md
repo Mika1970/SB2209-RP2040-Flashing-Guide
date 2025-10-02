@@ -3,6 +3,14 @@
 ✅ Tested and working flashing method for BigTreeTech SB2209 (RP2040).  
 This guide was validated after several failed attempts (DFU not working, Katapult issues) and is confirmed working with CANBUS.  
 
+
+## ℹ️ About this guide
+I am not a professional developer, just an end-user who struggled with flashing the BTT SB2209 RP2040.  
+After many failed attempts (DFU not working, boards burning, unstable Katapult), I finally found a reliable way to flash and configure it for CANBUS.  
+
+This guide is written to help other users who might face the same problems.  
+Everything here was tested on **Manta E3EZ + CB2 + U2C + SB2209 RP2040**, and confirmed working.
+
 All hardware (Manta E3EZ, CB2, U2C, SB2209) was purchased from **BigTreeTech**.  
 During testing, I had 3 modules:  
 - The **first one** powered on only briefly (2 seconds) then switched off → unusable.  
